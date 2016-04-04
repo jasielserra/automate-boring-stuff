@@ -3,7 +3,7 @@ while True:
     name = input()
     if name != 'Joe':
         continue
-    print('Hello, Joe. What is passwords (It is a fish.)')
+    print('Hello, Joe. What is the passwords (It is a fish.)')
     password = input()
     if password == 'fish':
         break
