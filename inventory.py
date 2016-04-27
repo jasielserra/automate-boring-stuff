@@ -4,7 +4,7 @@ dragonLoot = ['gold coin', 'dagger', 'gold coin', 'gold coin', 'ruby']
 def addToInventory(inventory, addedItems):
     for item in dragonLoot:
         stuff.setdefault(item,0)
-        stuff[item]=stuff[item]+1
+        stuff[item]+=1
 
     return stuff
 
